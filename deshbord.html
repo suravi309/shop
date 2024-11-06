@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <!-- tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- css -->
+   <style>
+    .manrope{
+      font-family: "Manrope", sans-serif;
+    }
+    body{
+      overflow-x: hidden;
+    }
+   </style>
+
+</head>
+<body class="">  
+    <header class="manrope bg-gray-100"> 
+      <section class="container mx-auto">         
+        <div class="navbar">
+          <!-- navbar-start -->
+          <div class="navbar-start"> 
+            <i class="fa-solid fa-arrow-right -rotate-45 bg-bot-primary-bg rounded-full p-1"></i>         
+            <a class=" mx-3 text-xl font-extrabold">PencilCub</a>
+
+          </div>
+          <!-- navbar-center -->
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a class="font-bold">Home</a></li>                
+                <div class="dropdown dropdown-hover">
+                  <div tabindex="0" role="button" class="m-2 te-primary">Stationery</div>
+                  <ul tabindex="0" class="dropdown-content  menu bg-base-100 rounded-box z-[1] w-screen  shadow">
+                    <div class="flex gap-6">
+                      <div>
+                        <li class="border-b-4 border-indigo-500 ml-5"><a>Pens</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                      </div>
+                      <div>
+                        <li class="border-b-4 border-indigo-500 ml-5"><a>Accessories</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                      </div>
+                      <div>
+                        <li class="border-b-4 border-indigo-500"><a>Files</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+                <li><a class="te-primary">Envelopes</a></li>
+                <li><a class="te-primary">NoteBook</a></li>
+                <li><a class="te-primary">More</a></li>
+            </ul>
+          </div>
+          <!-- navbar-end -->
+          <div class="navbar-end">
+            <div  class="">
+              <i class="fa-solid fa-magnifying-glass rounded-full p-2 bg-white mr-5 md:invisible"></i>
+            <i class="fa-solid fa-cart-shopping rounded-full p-2 bg-white mr-5 md:invisible"></i>
+            <a class="btn bg-bot-primary-bg rounded-full">
+              Shop
+              <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i>
+             </a>
+            </div>
+            
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a class="font-bold">Home</a></li>                
+                <div class="dropdown dropdown-hover">
+                  <div tabindex="0" role="button" class="m-2 te-primary">Stationery</div>
+                  <ul tabindex="0" class="dropdown-content  menu bg-base-100 rounded-box z-[1] w-screen  shadow">
+                    <div class="flex gap-6">
+                      <div>
+                        <li class="border-b-4 border-indigo-500 ml-5"><a>Pens</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                      </div>
+                      <div>
+                        <li class="border-b-4 border-indigo-500 ml-5"><a>Accessories</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                      </div>
+                      <div>
+                        <li class="border-b-4 border-indigo-500"><a>Files</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                        <li><a>Marker Pen</a></li>
+                      </div>
+                    </div>
+                  </ul>
+                </div>
+                <li><a class="te-primary">Envelopes</a></li>
+                <li><a class="te-primary">NoteBook</a></li>
+                <li><a class="te-primary">More</a></li>
+              </ul>              
+            </div>
+          </div>
+        </div>
+      </section>  
+      <section class=>
+        <div class="hero ">
+          <div class="hero-content text-center">
+            <div class="max-w-xl">
+              <img src="image/15.png" alt="" class="content-center mx-auto">
+              <h1 class="text-4xl font-extrabold text-gray-950">Up To 33% Off</h1>
+              <p class="py-6">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, sequi. Commodi, rem. Cum architecto quia quam facere nesciunt perferendis et tempora doloremque aliquid, harum, sed nobis, eum animi tempore distinctio.
+              </p>
+              <button><a class="btn bg-bot-green-bg rounded-full font-bold border-y-4 border-indigo-500">
+                Shop Now
+                <i class="fa-solid fa-arrow-right -rotate-45 bg-bot-primary-bg rounded-full p-1"></i>
+               </a></button>               
+            </div>
+          </div>
+        </div>
+      </section>
+    </header> 
+  
+    <main class="container mx-auto">
+
+      <section >
+        
+          <div class="p-10 mt-20 border-2 border-violet-700 justify-center rounded-xl">
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text">What is your name?</span>
+                <span class="label-text-alt">Top Right label</span>
+              </div>
+              <input type="text" placeholder="Type here" class="input input-bordered" />
+              <div class="label">
+                <span class="label-text-alt">Bottom Left label</span>
+                <span class="label-text-alt">Bottom Right label</span>
+              </div>
+            </label>
+            <label class="form-control mb-5">
+              <div class="label">
+                <span class="label-text">Enter Password</span>              
+              </div>
+              <input type="password" placeholder="Enter Password" class="input input-bordered" />
+            </label>
+            <button class="btn btn-outline btn-info">Submit</button>
+          </div>        
+      </section>
+
+
+      <section>
+        <div>
+          <button class="btn btn-outline btn-info mt-20">View Data</button>
+        </div>
+        <div  class="p-10 mt-20 border-2 border-violet-700 justify-center rounded-xl">
+          <!-- from -->
+          <form>            
+            <div>
+              <div class=" flex justify-between">
+                <!-- Button container -->
+                <div class="grid gap-4 place-items-center border  w-full rounded-lg ml-10 my-20 p-3">
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                </div>
+
+                <div class="border  w-full rounded-lg ml-10 my-20 p-3">
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                  <div class="card grid  flex-grow place-items-center">
+                    <label class="form-control mb-5">
+                      <div class="label">
+                        <span class="label-text">Enter Password</span>              
+                      </div>
+                      <input type="password" placeholder="Enter Password" class="input input-bordered" />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+    
+    
+    
+            
+    
+    
+           </form>
+        </div>
+      </section>
+    </main>
+
+
+  
+
+          
+          
+
+
+
+          <!--footer start  -->
+          <footer class="bg-black text-white py-14">
+    
+            <section>
+              <div>
+               <!-- text -->
+               <div>
+                <div class="hero">
+                  <div class="hero-content text-center">
+                    <div class="">
+                      <button><a class="btn bg-black text-white font-bold text-2xl border-black  rounded-full">
+                        <i class="fa-solid fa-arrow-right -rotate-45 bg-bot-primary-bg text-white rounded-full p-1"></i>
+                        PencilCub
+                        
+                       </a>
+                      </button>
+                      <p class="py-6 lg:pl-16 text-xs max-w-lg">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+                      </p> 
+        
+        
+                      <div>
+                        <nav class="grid lg:grid-flow-col  gap-7 text-sm">
+        
+        
+                          <a class="link link-hover">About us</a>
+                          <a class="link link-hover">Contact</a>
+                          <a class="link link-hover">Jobs</a>
+                          <a class="link link-hover">Press kit</a>
+                          <a class="link link-hover">Press kit</a>
+                        </nav>
+                      </div>
+                      
+                      <button class="pt-4"><a class="btn bg-bot-primary-bg text-black font-bold text-lg py-0 border-black  rounded-full">
+                        
+                        Book Consult
+                        <i class="fa-solid fa-arrow-right -rotate-45 bg-black text-white rounded-full p-1"></i>
+                        
+                       </a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+              </div>
+            </section>
+          </footer>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'te-primary': '#737373',
+            'bot-primary-bg': '#ABEF5F',
+            'bot-green-bg': '#d9f99d',
+            'concept-bg': '#E7C1D3',
+            'Design-bg': '#EFDA6E',
+            'Supervision-bg': '#77AAEA',
+            'Budget-bg': '#E7C1D3',
+            
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://kit.fontawesome.com/b0b253c3e7.js" crossorigin="anonymous"></script>
+</body>
+</html>
